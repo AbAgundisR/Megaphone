@@ -7,11 +7,61 @@
     android:background="@drawable/gradient"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/textView2"
+    <Button
+        android:id="@+id/btnMainInsta"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="main"
-        tools:layout_editor_absoluteX="175dp"
-        tools:layout_editor_absoluteY="222dp" />
+        android:layout_marginStart="158dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="130dp"
+        android:layout_marginBottom="324dp"
+        android:text="Instagram"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnMainTwitter" />
+
+    <Button
+        android:id="@+id/btnMainAjustes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="158dp"
+        android:layout_marginTop="112dp"
+        android:layout_marginEnd="152dp"
+        android:layout_marginBottom="571dp"
+        android:text="Ajustes"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnMainFacebook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="159dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="141dp"
+        android:layout_marginBottom="29dp"
+        android:text="Facebook"
+        app:layout_constraintBottom_toTopOf="@+id/btnMainTwitter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnMainAjustes" />
+
+    <Button
+        android:id="@+id/btnMainTwitter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="159dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginEnd="152dp"
+        android:layout_marginBottom="37dp"
+        android:text="Twitter"
+        app:layout_constraintBottom_toTopOf="@+id/btnMainInsta"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnMainFacebook" />
 </androidx.constraintlayout.widget.ConstraintLayout>

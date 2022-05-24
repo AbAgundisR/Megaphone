@@ -10,6 +10,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Megaphone">
         <activity
+            android:name=".InstagramActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TwitterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FacebookActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginRedActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AjustesActivity"
+            android:exported="false" />
+        <activity
             android:name=".LoginActivity"
             android:exported="false" />
         <activity
